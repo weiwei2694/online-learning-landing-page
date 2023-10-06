@@ -1,0 +1,143 @@
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+	flex-direction: column;
+  background-color: var(--tiger-100);
+  overflow: hidden;
+}
+
+.header__nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 2rem 0;
+	width: 100%;
+  max-width: 1694px;
+	margin: auto;
+}
+
+.header__nav-lists {
+	flex: 1;
+	display: flex;
+	gap: 4rem;
+	align-items: center;
+	justify-content: end;
+}
+
+.header__nav-lists ul {
+	display: flex;
+	align-items: center;
+	gap: 4rem;
+	list-style: none;
+}
+
+.header__nav-lists li {
+	color: var(--midnight-200);
+	font-size: 22px;
+	font-family: var(--font-poppins);
+	font-weight: 400;
+	line-height: auto;
+	letter-spacing: 2%;
+}
+
+.header__nav-lists div {
+	display: flex;
+	gap: 2rem;
+}
+
+.header__nav-lists div button {
+	height: 60px;
+	line-height: 60px;
+	font-family: var(--font-poppins);
+	font-size: 22px;
+	letter-spacing: 2%;
+	line-height: auto;
+	padding-inline: 3rem;
+	border: none;
+	outline: none;
+	border-radius: 50px;
+	cursor: pointer;
+}
+
+.header__nav-lists div button:first-child {
+	color: var(--neutral-100);
+	background-color: #fff;
+	box-shadow: 0 14px 44px -6px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 0 14px 44px -6px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 14px 44px -6px rgba(0, 0, 0, 0.2);
+}
+
+.header__nav-lists div button:last-child {
+	color: #fff;
+	background-color: var(--tiger-200);
+}
+
+.header__content {
+	padding-inline: 0;
+	padding-top: 0;
+  width: 100%;
+  max-width: 1694px;
+  margin: auto;
+}
+
+.header__content-container {
+  padding-top: 4rem;
+  width: 100%;
+	display: flex;
+	align-items: start;
+	justify-content: space-between;
+}
+
+.header__content-container__texts {
+  padding-top: 8rem;
+	display: flex;
+	align-items: start;
+	justify-content: center;
+	flex-direction: column;
+	gap: 2.5rem;
+}
+
+.header__content-container__texts div {
+	display: flex;
+	align-items: center;
+	gap: 3rem;
+}
+
+.header__content-container__texts div > * {
+	cursor: pointer;
+}
+
+.header__content-container__texts div button {
+	border: none;
+	outline: none;
+	border-radius: 50px;
+	height: 80px;
+}
+
+.header__content-container__texts div button:first-child {
+	width: 220px;
+	color: #fff;
+	background-color: var(--tiger-200);
+	font-weight: 600;
+	font-size: 24px;
+	font-family: var(--font-poppins);
+}
+
+.header__content-container__texts div button:nth-child(2) {
+	width: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #fff;
+}
+
+.header__content-container__texts div p {
+	font-family: var(--font-poppins);
+	color: var(--midnight-200);
+	font-weight: 400;
+	font-size: 24px;
+	letter-spacing: 0%;
+	line-height: auto;
+}
