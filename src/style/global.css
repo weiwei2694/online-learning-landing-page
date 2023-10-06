@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800;6..12,900;6..12,1000&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+*,
+html,
+body,
+:root {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+	max-width: 1280px;
+	margin: auto;
+}
+
+*::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+}
+*::-webkit-scrollbar-thumb {
+	background-color: #888;
+	border-radius: 4px;
+}
+*::-webkit-scrollbar-thumb:hover {
+	background-color: #555;
+}
+*::-webkit-scrollbar-track {
+	background-color: #f1f1f1;
+	border-radius: 4px;
+}
+*::-webkit-scrollbar-track:hover {
+	background-color: #ddd;
+}
+
+:root {
+	--tiger-100: #fff3e4;
+	--tiger-200: #f48c06;
+	--midnight-100: #696984;
+	--midnight-200: #252641;
+	--midnight-300: #2f327d;
+	--neutral-100: #6c6c6c;
+	--neutral-200: #464646;
+	--font-poppins: "Poppins", sans-serif;
+	--font-nunito-sans: "Nunito Sans", sans-serif;
+}
+
+.section__padding {
+	padding: 4rem 0;
+}
+
+.span__tiger-200 {
+	color: var(--tiger-200);
+}
+
+.heading__one-bold {
+	color: var(--midnight-300);
+	font-family: var(--font-poppins);
+	line-height: auto;
+	letter-spacing: 0%;
+	font-weight: bold;
+	font-size: 54px;
+}
+
+.heading__two-bold {
+	font-size: 44px;
+	color: var(--midnight-300);
+	font-family: var(--font-poppins);
+	line-height: 180%;
+	letter-spacing: 0%;
+	font-weight: bold;
+}
+
+.heading__three-bold {
+	font-size: 36px;
+	color: var(--midnight-300);
+	font-family: var(--font-nunito-sans);
+	line-height: 180%;
+	letter-spacing: 0%;
+	font-weight: bold;
+}
+
+.heading__three-medium {
+	font-size: 36px;
+	color: var(--midnight-300);
+	font-family: var(--font-poppins);
+	line-height: 160%;
+	letter-spacing: 0%;
+	font-weight: 500;
+}
+
+.paragraph__one-regular {
+	color: var(--neutral-200);
+	font-size: 24px;
+	line-height: 160%;
+	font-family: var(--font-nunito-sans);
+}
+
+.paragraph__two-regular {
+	color: var(--midnight-100);
+	font-size: 24px;
+	line-height: 160%;
+	font-family: var(--font-poppins);
+}
