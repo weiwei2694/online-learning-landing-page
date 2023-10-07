@@ -334,8 +334,8 @@
 }
 
 .withskilline__texts::before {
-	content: '';
-	background-color: #F4B767;
+	content: "";
+	background-color: #f4b767;
 	width: 73px;
 	height: 73px;
 	position: absolute;
@@ -346,8 +346,8 @@
 }
 
 .withskilline__texts::after {
-	content: '';
-	background-color: #F4B767;
+	content: "";
+	background-color: #f4b767;
 	width: 30px;
 	height: 30px;
 	position: absolute;
@@ -367,7 +367,7 @@
 }
 
 /* A User Interface */
-.userinterface  {
+.userinterface {
 	display: flex;
 	gap: 7rem;
 }
@@ -409,6 +409,21 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	gap: 2rem;
+	width: 100%;
+	max-width: 800px;
+}
+
+/* Assessments */
+.assessments {
+	display: flex;
+	gap: 7rem;
+}
+
+.assessments__texts {
+	display: flex;
+	flex-direction: column;
+	padding-top: 4rem;
 	gap: 2rem;
 	width: 100%;
 	max-width: 800px;
