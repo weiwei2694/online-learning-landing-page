@@ -457,8 +457,30 @@
 	max-width: 800px;
 }
 
-/* Cta */
+/* Cta - See More Features */
 .cta {
 	display: flex;
 	justify-content: center;
+}
+
+/* Integrations */
+.integrations {
+	display: flex;
+	justify-content: flex-end;
+	gap: 7rem;
+}
+
+.integrations__texts {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	width: 100%;
+	max-width: 800px;
+}
+
+.integrations__tools {
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 2rem;
 }

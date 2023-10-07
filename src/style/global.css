@@ -34,7 +34,7 @@ body,
 	--midnight-100: #696984;
 	--midnight-200: #252641;
 	--midnight-300: #2f327d;
-	--midnight-400: #171B41;
+	--midnight-400: #171b41;
 	--neutral-100: #6c6c6c;
 	--neutral-200: #464646;
 	--font-poppins: "Poppins", sans-serif;
@@ -120,4 +120,25 @@ body,
 	font-weight: 400;
 	padding: 1.5rem 3rem;
 	text-decoration: none;
+	width: fit-content;
+}
+
+.tagline {
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+	color: #525596;
+	font-family: var(--font-nunito-sans);
+	font-size: 20px;
+	font-weight: 400;
+	line-height: auto;
+	letter-spacing: 20%;
+	text-transform: uppercase;
+}
+
+.tagline::before {
+	content: "";
+	height: 2px;
+	width: 80px;
+	background-color: #525596;
 }
