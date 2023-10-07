@@ -118,9 +118,13 @@ body,
 	font-size: 24px;
 	font-family: var(--font-nunito-sans);
 	font-weight: 400;
-	padding: 1.5rem 3rem;
+	padding-inline: 3rem;
+	display: block;
+	height: 80px;
+	line-height: 80px;
 	text-decoration: none;
 	width: fit-content;
+	cursor: pointer;
 }
 
 .tagline {
