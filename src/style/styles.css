@@ -441,3 +441,24 @@
 	justify-content: center;
 	gap: 2rem;
 }
+
+/* One On One */
+.one-on-one {
+	display: flex;
+	gap: 7rem;
+}
+
+.one-on-one__texts {
+	display: flex;
+	flex-direction: column;
+	padding-top: 4rem;
+	gap: 2rem;
+	width: 100%;
+	max-width: 800px;
+}
+
+/* Cta */
+.cta {
+	display: flex;
+	justify-content: center;
+}

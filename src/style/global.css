@@ -107,3 +107,17 @@ body,
 	line-height: 160%;
 	font-family: var(--font-poppins);
 }
+
+.button__ghost {
+	border-radius: 80px;
+	border: 2px solid var(--tiger-200);
+	outline: none;
+	color: var(--tiger-200);
+	background-color: transparent;
+	letter-spacing: 2%;
+	font-size: 24px;
+	font-family: var(--font-nunito-sans);
+	font-weight: 400;
+	padding: 1.5rem 3rem;
+	text-decoration: none;
+}
