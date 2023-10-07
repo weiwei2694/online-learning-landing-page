@@ -262,7 +262,7 @@
 }
 
 .whatisskilline__cards-card::before {
-	content: '';
+	content: "";
 	background-color: var(--midnight-400);
 	opacity: 45%;
 	z-index: 1;
@@ -301,7 +301,7 @@
 }
 
 .whatisskilline__cards-card__instructors {
-	background: url('../assets/images/for-instructors.png') no-repeat;
+	background: url("../assets/images/for-instructors.png") no-repeat;
 }
 
 .whatisskilline__cards-card__instructors div button {
@@ -310,9 +310,50 @@
 }
 
 .whatisskilline__cards-card__students {
-	background: url('../assets/images/for-students.png') no-repeat;
+	background: url("../assets/images/for-students.png") no-repeat;
 }
 
 .whatisskilline__cards-card__students div button {
-	background: rgba(35, 189, 238, .9);
+	background: rgba(35, 189, 238, 0.9);
+}
+
+/* What you can do with skilline */
+.withskilline {
+	display: flex;
+	flex-direction: row;
+	gap: 7rem;
+}
+
+.withskilline__texts {
+	display: flex;
+	flex-direction: column;
+	padding-block: 1rem;
+	gap: 2rem;
+	position: relative;
+	z-index: 0;
+}
+
+.withskilline__texts::before {
+	content: '';
+	background-color: #F4B767;
+	width: 73px;
+	height: 73px;
+	position: absolute;
+	top: 5px;
+	left: -16px;
+	z-index: -1;
+	border-radius: 50px;
+}
+
+.withskilline__texts::after {
+	content: '';
+	background-color: #F4B767;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 0;
+	z-index: -1;
+	border-radius: 50px;
 }
