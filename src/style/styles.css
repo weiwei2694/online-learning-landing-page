@@ -222,3 +222,97 @@
 	letter-spacing: 0%;
 	line-height: 180%;
 }
+
+/* What is Skilline? */
+.whatisskilline {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	flex-direction: column;
+	gap: 6rem;
+}
+
+.whatisskilline__texts {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	max-width: 800px;
+	gap: 1rem;
+}
+
+.whatisskilline__cards {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	gap: 7rem;
+}
+
+.whatisskilline__cards-card {
+	position: relative;
+	width: 100%;
+	max-width: 600px;
+	border-radius: 20px;
+	height: 400px;
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 0;
+}
+
+.whatisskilline__cards-card::before {
+	content: '';
+	background-color: var(--midnight-400);
+	opacity: 45%;
+	z-index: 1;
+	position: absolute;
+	inset: 0;
+}
+
+.whatisskilline__cards-card div {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	position: relative;
+	z-index: 2;
+}
+
+.whatisskilline__cards-card div h4 {
+	font-family: var(--font-poppins);
+	color: #fff;
+	font-size: 32px;
+	font-weight: 600;
+	line-height: auto;
+	letter-spacing: 0%;
+}
+
+.whatisskilline__cards-card div button {
+	border-radius: 80px;
+	height: 80px;
+	width: 283px;
+	line-height: 80px;
+	color: #fff;
+	font-family: var(--font-poppins);
+	font-size: 22px;
+	font-weight: 500;
+	border: none;
+	outline: none;
+}
+
+.whatisskilline__cards-card__instructors {
+	background: url('../assets/images/for-instructors.png') no-repeat;
+}
+
+.whatisskilline__cards-card__instructors div button {
+	border: 1px solid #fff;
+	background-color: transparent;
+}
+
+.whatisskilline__cards-card__students {
+	background: url('../assets/images/for-students.png') no-repeat;
+}
+
+.whatisskilline__cards-card__students div button {
+	background: rgba(35, 189, 238, .9);
+}
