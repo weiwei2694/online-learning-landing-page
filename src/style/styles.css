@@ -428,3 +428,16 @@
 	width: 100%;
 	max-width: 800px;
 }
+
+/* Managements */
+.management {
+	display: flex;
+	gap: 7rem;
+}
+
+.management__texts {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 2rem;
+}
