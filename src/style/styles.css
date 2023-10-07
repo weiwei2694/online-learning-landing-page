@@ -605,3 +605,109 @@
 	line-height: 180%;
 	letter-spacing: 2%;
 }
+
+/* Lastest News and Resources */
+.resources {
+	padding-top: 12rem;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	flex-direction: column;
+	gap: 4rem;
+}
+
+.resources__texts {
+	display: flex;
+	flex-direction: column;
+	max-width: 800px;
+	width: 100%;
+}
+
+.resources__blogs {
+	display: flex;
+	justify-content: center;
+	gap: 7rem;
+}
+
+.resources__blogs-main {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: start;
+	gap: 2rem;
+	width: 100%;
+	max-width: 640px;
+	text-align: start;
+}
+
+.resources__blogs-main h4 {
+	font-family: var(--font-poppins);
+	line-height: 180%;
+	letter-spacing: 0%;
+	font-weight: 500;
+	color: var(--midnight-200);
+	font-size: 26px;
+}
+
+.resources__blogs-main p,
+.resources__blogs-main a {
+	font-weight: 400;
+	font-size: 20px;
+	font-family: var(--font-poppins);
+	color: var(--midnight-100);
+	line-height: 180%;
+	letter-spacing: 2%;
+}
+
+.resources__blogs-aside,
+.resources__blogs-aside__lists {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: start;
+	list-style: none;
+	gap: 3.5rem;
+}
+
+.resources__blogs-aside__lists li {
+	display: flex;
+	flex-direction: row;
+	justify-content: start;
+	align-items: start;
+	gap: 2rem;
+}
+
+.resources__blogs-aside__lists li div:first-child {
+	position: relative;
+	z-index: 0;
+}
+
+.resources__blogs-aside__lists li div:first-child > a {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
+
+.resources__blogs-aside__lists li div:last-child {
+	display: flex;
+	text-align: start;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+.resources__blogs-aside__lists li div:last-child h5 {
+	color: var(--midnight-200);
+	font-weight: 500;
+	font-family: var(--font-poppins);
+	font-size: 22px;
+	line-height: 180%;
+	letter-spacing: 0%;
+}
+
+.resources__blogs-aside__lists li div:last-child p {
+	font-family: var(--font-poppins);
+	line-height: 180%;
+	letter-spacing: 2%;
+	font-size: 20px;
+	font-weight: 400;
+}

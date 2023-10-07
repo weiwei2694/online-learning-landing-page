@@ -146,3 +146,22 @@ body,
 	width: 80px;
 	background-color: #525596;
 }
+
+.blog__category {
+	display: block;
+	width: fit-content;
+	padding-inline: 1.8rem;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 80px;
+	color: var(--midnight-200);
+	background-color: #f4c467;
+	letter-spacing: 2%;
+	font-family: var(--font-poppins);
+	font-weight: 500;
+	font-size: 20px;
+	border: none;
+	outline: none;
+	text-transform: uppercase;
+	text-decoration: none;
+}
