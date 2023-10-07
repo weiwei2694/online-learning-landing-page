@@ -365,3 +365,36 @@
 	align-items: center;
 	text-align: center;
 }
+
+/* A User Interface */
+.userinterface  {
+	display: flex;
+	gap: 7rem;
+}
+
+.userinterface__texts {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 4rem;
+}
+
+.userinterface__texts-lists {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	list-style: none;
+}
+
+.userinterface__texts-lists li {
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+}
+
+.userinterface__texts-lists li div {
+	padding: 1rem;
+	border-radius: 50px;
+	background-color: #fff;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+}
