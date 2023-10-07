@@ -84,6 +84,15 @@ body,
 	font-weight: 500;
 }
 
+.heading__four-medium {
+	font-size: 28px;
+	color: var(--midnight-100);
+	font-family: var(--font-poppins);
+	line-height: 160%;
+	letter-spacing: 2%;
+	font-weight: 500;
+}
+
 .paragraph__one-regular {
 	color: var(--neutral-200);
 	font-size: 24px;
