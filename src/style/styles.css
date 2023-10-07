@@ -398,3 +398,18 @@
 	background-color: #fff;
 	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
 }
+
+/* Tools */
+.tools {
+	display: flex;
+	gap: 7rem;
+}
+
+.tools__texts {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 2rem;
+	width: 100%;
+	max-width: 800px;
+}
